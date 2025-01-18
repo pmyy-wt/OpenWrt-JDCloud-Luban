@@ -69,7 +69,7 @@ jobs:
         cd openwrt
         git fetch --all --tags
         git tag -l "v23.*"
-        git checkout v23.05.4
+        git checkout $(git tag -l "v23.05.*" |tail -1)
 
     - name: Load custom feeds
       run: |
