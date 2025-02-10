@@ -93,7 +93,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+        #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
         #echo "CONFIG_PACKAGE_luci-app-oaf=y" >> .config
 
     - name: Install feeds
