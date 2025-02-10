@@ -19,8 +19,8 @@
 #echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git custom https://github.com/kiddin9/kwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
 #echo 'src-git luciex https://github.com/openwrt/luci.git' >> feeds.conf.default
-echo 'src-git coolsnowwolf https://github.com/coolsnowwolf/packages' >>feeds.conf.default
+#echo 'src-git coolsnowwolf https://github.com/coolsnowwolf/packages' >>feeds.conf.default
 #sed -ie 's/;.*//' feeds.conf.default
 cat feeds.conf.default
