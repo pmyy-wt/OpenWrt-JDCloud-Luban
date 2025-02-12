@@ -97,7 +97,9 @@ jobs:
         #echo "CONFIG_PACKAGE_luci-app-oaf=y" >> .config
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: |
+        cd openwrt && ./scripts/feeds install -a
+        ./scripts/feeds uninstall oaf
       
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
